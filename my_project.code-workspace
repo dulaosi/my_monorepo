@@ -1,0 +1,8 @@
+{
+  "folders": [
+    { "path": "app_shell" },
+    { "path": "packages/pkg_common" },
+    { "path": "packages/pkg_logic" },
+    { "path": "packages/pkg_room" }
+  ]
+}
