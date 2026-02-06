@@ -169,3 +169,12 @@ export 'src/login_widgets.dart';
 
 下一步建议的操作：
 现在你可以让三位开发人员按照这个模式，分别在各自的 packages/ 下创建 src 文件夹，并统一通过包名命名的 .dart 文件导出。
+
+
+外部项目引用方式
+
+  mono_sdk:
+    git:
+      url: https://github.com/dulaosi/my_monorepo.git
+      path: packages/mono_sdk
+      ref: mono_sdk_0.0.1  # 只需要指定聚合包的 Tag
